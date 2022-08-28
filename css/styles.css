@@ -64,6 +64,7 @@ button {
 
   font-size: 16px;
   letter-spacing: 0.06em;
+
 }
 .container {
   margin-left: auto;
@@ -148,13 +149,13 @@ button {
   color: var(--main-color);
   font-weight: 500;
   line-height: 1.14;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link.current::after {
@@ -192,6 +193,8 @@ button {
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-mail,
 .icon-phone {
@@ -207,7 +210,6 @@ button {
 .site-contacts .link:focus {
   color: var(--accent-color);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero  */
@@ -287,6 +289,8 @@ button {
   background-color: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-clsbtn {
   fill: currentColor;
@@ -296,8 +300,6 @@ button {
 .btn-close:hover,
 .btn-close:focus {
   color: var(--accent-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* button */
@@ -308,6 +310,9 @@ button {
   font-weight: 700;
   line-height: 1.88;
   padding: 10px 32px;
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.secondary {
@@ -317,6 +322,10 @@ button {
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 1.62;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.primary:hover,
@@ -324,8 +333,6 @@ button {
   color: var(--primary-white-color);
   background-color: var(--button-pressing-color);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.secondary:hover,
@@ -334,10 +341,6 @@ button {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .features {
@@ -499,6 +502,9 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social .item {
   margin-right: 10px;
@@ -513,8 +519,6 @@ button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons {
   fill: currentColor;
@@ -536,6 +540,9 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients .item {
@@ -553,9 +560,6 @@ button {
 .clients .link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
-
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -596,6 +600,7 @@ button {
   line-height: 1.71;
   font-style: normal;
   font-weight: 400;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contact {
@@ -604,14 +609,14 @@ button {
   font-weight: 400;
   line-height: 1.71;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-contact .link:hover,
 .site-contact .link:focus {
   color: var(--accent-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .links-title {
   color: var(--primary-white-color);
   font-weight: 700;
@@ -661,13 +666,12 @@ button {
 }
 .portfolio-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfilio {
